@@ -1,6 +1,28 @@
 Khmer Angkor Change History
 =======================
 
+1.4 (5 Mar 2024)
+----------------
+* add spacing glyphs to touch layout spacebar
+
+1.3.1 (29 Apr 2024)
+----------------------
+* fix identical subscript
+
+1.3 (19 Jul 2022)
+----------------------
+* update OSK in the documentation and bump version number
+
+1.2 (3 Mar 2022)
+----------------------
+* fix BA issue with 17BB
+
+1.1 (27 Oct 2021)
+----------------------
+* update rules for ប (U+1794) and ័ (U+17D0)
+* add robat rule
+* add regression tests
+
 1.0.9 (7 Apr 2021)
 ----------------------
 * fix broken images on help and welcome pages

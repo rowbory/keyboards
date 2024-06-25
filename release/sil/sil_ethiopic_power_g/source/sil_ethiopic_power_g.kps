@@ -11,6 +11,7 @@
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
+    <LicenseFile>..\LICENSE.md</LicenseFile>
   </Options>
   <StartMenu>
     <Folder></Folder>
@@ -19,9 +20,12 @@
   <Info>
     <Name URL="">SIL Ethiopic Power-G</Name>
     <Version URL=""></Version>
-    <Copyright URL="">© 2017-2020 SIL Ethiopia</Copyright>
+    <Copyright URL="">© 2017-2023 SIL Ethiopia</Copyright>
     <Author URL="mailto:computer_ethiopia@sil.org">SIL Ethiopia</Author>
     <WebSite URL="http://www.silethiopia.org">http://www.silethiopia.org</WebSite>
+    <Description>The SIL Ethiopic Power-G keyboard enables typing in all Ethiopic Saba
+Fidel scripts using the keyboarding sequences found in the \"Power
+Ge\'ez (Phonetic)\" keyboard from Concepts Data Systems.</Description>
   </Info>
   <Files>
     <File>
@@ -60,12 +64,18 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
     </File>
+    <File>
+      <Name>..\LICENSE.md</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>SIL Ethiopic Power-G</Name>
       <ID>sil_ethiopic_power_g</ID>
-      <Version>1.2.2</Version>
+      <Version>1.2.3</Version>
       <Languages>
         <Language ID="am">Amharic</Language>
         <Language ID="bst-Ethi">Basketo (Ethiopic)</Language>
@@ -78,6 +88,7 @@
         <Language ID="suq-Ethi">Suri (Ethiopic)</Language>
         <Language ID="tig-Ethi">Tigre (Ethiopic)</Language>
         <Language ID="zay-Ethi">Zayse-Zergulla (Ethiopic)</Language>
+        <Language ID="mul-Ethi">Multiple languages</Language>
       </Languages>
     </Keyboard>
   </Keyboards>

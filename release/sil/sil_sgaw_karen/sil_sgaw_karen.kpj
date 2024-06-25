@@ -12,11 +12,11 @@
       <ID>id_2f5f17e2b66835ab26a2ba7f9994a79f</ID>
       <Filename>sil_sgaw_karen.kmn</Filename>
       <Filepath>source\sil_sgaw_karen.kmn</Filepath>
-      <FileVersion>1.0.1</FileVersion>
+      <FileVersion>1.1</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Sgaw Karen</Name>
-        <Copyright>© 2020-2021 SIL International</Copyright>
+        <Copyright>© 2020-2022 SIL International</Copyright>
       </Details>
     </File>
     <File>
@@ -27,7 +27,7 @@
       <FileType>.kps</FileType>
       <Details>
         <Name>Sgaw Karen</Name>
-        <Copyright>© 2020-2021 SIL International</Copyright>
+        <Copyright>© 2020-2022 SIL International</Copyright>
       </Details>
     </File>
     <File>
@@ -50,13 +50,6 @@
       <Filepath>README.md</Filepath>
       <FileVersion></FileVersion>
       <FileType>.md</FileType>
-    </File>
-    <File>
-      <ID>id_5e9fc68d948a2b04883b6f5280e685de</ID>
-      <Filename>sil_sgaw_karen.keyboard_info</Filename>
-      <Filepath>sil_sgaw_karen.keyboard_info</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.keyboard_info</FileType>
     </File>
     <File>
       <ID>id_a076ad3ae9c39959d2c2dd232354a194</ID>

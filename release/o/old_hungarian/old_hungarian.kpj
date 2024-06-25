@@ -12,11 +12,11 @@
       <ID>id_f8fae8cb243dd6be427b6304d9e73142</ID>
       <Filename>old_hungarian.kmn</Filename>
       <Filepath>source\old_hungarian.kmn</Filepath>
-      <FileVersion></FileVersion>
+      <FileVersion>1.7.8</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Old Hungarian</Name>
-        <Copyright>© 2021 SIL International</Copyright>
+        <Copyright>© SIL International</Copyright>
       </Details>
     </File>
     <File>
@@ -27,7 +27,7 @@
       <FileType>.kps</FileType>
       <Details>
         <Name>Old Hungarian</Name>
-        <Copyright>© 2021 SIL International</Copyright>
+        <Copyright>© 2021-2023 SIL International</Copyright>
       </Details>
     </File>
     <File>
@@ -95,14 +95,6 @@
       <ParentFileID>id_14e5b0167906d0ef3fbf392f6d338547</ParentFileID>
     </File>
     <File>
-      <ID>id_6dc64d13b398eb281ed9067d1dba914e</ID>
-      <Filename>OldHungarian_Full.ttf</Filename>
-      <Filepath>source\..\assets\OldHungarian_Full.ttf</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.ttf</FileType>
-      <ParentFileID>id_14e5b0167906d0ef3fbf392f6d338547</ParentFileID>
-    </File>
-    <File>
       <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
       <Filename>welcome.htm</Filename>
       <Filepath>source\welcome\welcome.htm</Filepath>
@@ -111,11 +103,19 @@
       <ParentFileID>id_14e5b0167906d0ef3fbf392f6d338547</ParentFileID>
     </File>
     <File>
-      <ID>id_a45878588a50168c1386f3fcfbc4107f</ID>
-      <Filename>OldHungarianLICENSE.txt</Filename>
-      <Filepath>source\..\assets\OldHungarianLICENSE.txt</Filepath>
+      <ID>id_79f78371bf72df1d8ab0e03e5dd8aa87</ID>
+      <Filename>Kende.ttf</Filename>
+      <Filepath>source\..\..\..\shared\fonts\hung\kende\Kende.ttf</Filepath>
       <FileVersion></FileVersion>
-      <FileType>.txt</FileType>
+      <FileType>.ttf</FileType>
+      <ParentFileID>id_14e5b0167906d0ef3fbf392f6d338547</ParentFileID>
+    </File>
+    <File>
+      <ID>id_cf7e17ca9e1a937fe2cd9132d3209215</ID>
+      <Filename>LICENSE</Filename>
+      <Filepath>source\..\..\..\shared\fonts\hung\kende\LICENSE</Filepath>
+      <FileVersion></FileVersion>
+      <FileType></FileType>
       <ParentFileID>id_14e5b0167906d0ef3fbf392f6d338547</ParentFileID>
     </File>
   </Files>

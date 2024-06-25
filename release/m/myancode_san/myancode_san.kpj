@@ -12,7 +12,7 @@
       <ID>id_c271257ef997925fa61171a962356572</ID>
       <Filename>myancode_san.kmn</Filename>
       <Filepath>source\myancode_san.kmn</Filepath>
-      <FileVersion>1.0</FileVersion>
+      <FileVersion>1.1</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>MyanCode-San</Name>
@@ -50,13 +50,6 @@
       <Filepath>README.md</Filepath>
       <FileVersion></FileVersion>
       <FileType>.md</FileType>
-    </File>
-    <File>
-      <ID>id_f8ef89ec17f1ce6c0d6a92a7d1085f5e</ID>
-      <Filename>myancode_san.keyboard_info</Filename>
-      <Filepath>myancode_san.keyboard_info</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.keyboard_info</FileType>
     </File>
     <File>
       <ID>id_a816332b1214e611f1d01c74e8564c43</ID>

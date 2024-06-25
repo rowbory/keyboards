@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>12.0.50.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>15.0.274.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -10,6 +10,7 @@
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
+    <LicenseFile>..\LICENSE.md</LicenseFile>
   </Options>
   <StartMenu>
     <Folder></Folder>
@@ -17,10 +18,12 @@
   </StartMenu>
   <Info>
     <Name URL="">Dakelh</Name>
-    <Copyright URL="">(c) 2008-2021 FirstVoices, SIL International. Portions (c) 2006 Chris Harvey</Copyright>
+    <Copyright URL="">(c) 2008-2024 FirstVoices, SIL International. Portions (c) 2006 Chris Harvey</Copyright>
     <Version URL=""></Version>
     <Author URL=""></Author>
     <WebSite URL="https://www.firstvoices.com">https://www.firstvoices.com</WebSite>
+    <Description>This keyboard is designed for the Dakelh language of the BC Interior
+region of Canada. This is part of a set of keyboards from FirstVoices.</Description>
   </Info>
   <Files>
     <File>
@@ -125,16 +128,34 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
+    <File>
+      <Name>fv_dakelh_kmw_help.htm</Name>
+      <Description>File fv_dakelh_kmw_help.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\LICENSE.md</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>Dakelh</Name>
       <ID>fv_dakelh</ID>
-      <Version></Version>
+      <Version>9.1.5</Version>
       <Languages>
         <Language ID="caf-Latn">Southern Carrier (Latin)</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
   <Strings/>
+  <RelatedPackages>
+    <RelatedPackage ID="dakelh" Relationship="deprecates" />
+    <RelatedPackage ID="dakelh1_u" Relationship="deprecates" />
+    <RelatedPackage ID="dakelh2_u" Relationship="deprecates" />
+    <RelatedPackage ID="fv_dakelh_kmw" Relationship="deprecates" />
+  </RelatedPackages>
 </Package>

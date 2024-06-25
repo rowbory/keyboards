@@ -1,10 +1,6 @@
 Dene Dzage keyboard
 ======================
 
-Copyright (c) 2015-2018 FirstVoices, SIL International, 2015 First Peoples' Cultural Foundation
-
-Version 9.1
-
 Dene Dzage keyboard layout for Unicode
 
 Links
@@ -17,9 +13,8 @@ Links
 Supported Platforms
 -------------------
 
+ * Windows
+ * macOS
+ * Linux
+ * Web
  * Mobile
-
-Todo
-----
-
- * This keyboard needs canonical ordering to be changed and normalized (U+0328)

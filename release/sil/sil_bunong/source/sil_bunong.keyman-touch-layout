@@ -1,6 +1,6 @@
 {
   "tablet": {
-    "displayUnderlying": true,
+    "displayUnderlying": false,
     "layer": [
       {
         "id": "default",
@@ -65,8 +65,8 @@
               {
                 "id": "K_BKSP",
                 "text": "*BkSp*",
-                "width": "100",
-                "sp": "1"
+                "width": 100,
+                "sp": 1
               }
             ]
           },
@@ -76,7 +76,7 @@
               {
                 "id": "K_Q",
                 "text": "ឆ",
-                "pad": "75"
+                "pad": 75
               },
               {
                 "id": "K_W",
@@ -112,7 +112,13 @@
               },
               {
                 "id": "K_Y",
-                "text": "យ"
+                "text": "យ",
+                "sk": [
+                  {
+                    "text": "ួ",
+                    "id": "U_17BD"
+                  }
+                ]
               },
               {
                 "id": "K_U",
@@ -163,14 +169,6 @@
                 "text": "៖",
                 "sk": [
                   {
-                    "text": "ះ",
-                    "id": "U_17C7"
-                  },
-                  {
-                    "text": "ៈ",
-                    "id": "U_17C8"
-                  },
-                  {
                     "text": ":",
                     "id": "U_003A"
                   }
@@ -179,8 +177,8 @@
               {
                 "id": "T_new_136",
                 "text": "",
-                "width": "10",
-                "sp": "10"
+                "width": 10,
+                "sp": 10
               }
             ]
           },
@@ -192,16 +190,8 @@
                 "text": "«",
                 "sk": [
                   {
-                    "text": "\"",
-                    "id": "U_0022"
-                  },
-                  {
-                    "text": "'",
-                    "id": "U_0027"
-                  },
-                  {
-                    "text": "<",
-                    "id": "U_003C"
+                    "text": "‹",
+                    "id": "U_2039"
                   }
                 ]
               },
@@ -247,7 +237,13 @@
               },
               {
                 "id": "K_QUOTE",
-                "text": "់"
+                "text": "់",
+                "sk": [
+                  {
+                    "text": "ៈ",
+                    "id": "U_17C8"
+                  }
+                ]
               },
               {
                 "id": "K_BKSLASH",
@@ -271,8 +267,8 @@
               {
                 "id": "K_SHIFT",
                 "text": "*Shift*",
-                "width": "160",
-                "sp": "1",
+                "width": 160,
+                "sp": 1,
                 "nextlayer": "shift"
               },
               {
@@ -337,10 +333,11 @@
                 "text": "."
               },
               {
-                "id": "T_new_162",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SHIFT",
+                "text": "*Shift*",
+                "width": 160,
+                "sp": 1,
+                "nextlayer": "shift"
               }
             ]
           },
@@ -350,19 +347,19 @@
               {
                 "id": "K_LOPT",
                 "text": "*Menu*",
-                "width": "140",
-                "sp": "1"
+                "width": 160,
+                "sp": 1
               },
               {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "1100"
+                "width": 1100
               },
               {
                 "id": "K_ENTER",
                 "text": "*Enter*",
-                "width": "145",
-                "sp": "1"
+                "width": 195,
+                "sp": 1
               }
             ]
           }
@@ -404,7 +401,7 @@
               },
               {
                 "id": "K_8",
-                "text": ""
+                "text": "*"
               },
               {
                 "id": "K_9",
@@ -445,8 +442,8 @@
               {
                 "id": "K_BKSP",
                 "text": "*BkSp*",
-                "width": "100",
-                "sp": "1"
+                "width": 100,
+                "sp": 1
               }
             ]
           },
@@ -456,7 +453,7 @@
               {
                 "id": "K_Q",
                 "text": "",
-                "pad": "75"
+                "pad": 75
               },
               {
                 "id": "K_W",
@@ -476,7 +473,7 @@
               },
               {
                 "id": "K_Y",
-                "text": ""
+                "text": "ួ"
               },
               {
                 "id": "K_U",
@@ -505,8 +502,8 @@
               {
                 "id": "T_new_356",
                 "text": "",
-                "width": "10",
-                "sp": "10"
+                "width": 10,
+                "sp": 10
               }
             ]
           },
@@ -518,22 +515,14 @@
                 "text": "»",
                 "sk": [
                   {
-                    "text": "\"",
-                    "id": "U_0022"
-                  },
-                  {
-                    "text": "'",
-                    "id": "U_0027"
-                  },
-                  {
-                    "text": ">",
-                    "id": "U_003E"
+                    "text": "›",
+                    "id": "U_203A"
                   }
                 ]
               },
               {
                 "id": "K_A",
-                "text": "ៈ"
+                "text": "@"
               },
               {
                 "id": "K_S",
@@ -569,17 +558,11 @@
               },
               {
                 "id": "K_COLON",
-                "text": ":"
+                "text": "ៈ"
               },
               {
                 "id": "K_QUOTE",
-                "text": "\"",
-                "sk": [
-                  {
-                    "text": "'",
-                    "id": "U_0027"
-                  }
-                ]
+                "text": "\""
               },
               {
                 "id": "K_BKSLASH",
@@ -593,8 +576,8 @@
               {
                 "id": "K_SHIFT",
                 "text": "*Shift*",
-                "width": "160",
-                "sp": "2",
+                "width": 160,
+                "sp": 2,
                 "nextlayer": "default"
               },
               {
@@ -638,10 +621,11 @@
                 "text": "?"
               },
               {
-                "id": "T_new_382",
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "K_SHIFT",
+                "text": "*Shift*",
+                "width": 160,
+                "sp": 2,
+                "nextlayer": "default"
               }
             ]
           },
@@ -651,19 +635,19 @@
               {
                 "id": "K_LOPT",
                 "text": "*Menu*",
-                "width": "140",
-                "sp": "1"
+                "width": 160,
+                "sp": 1
               },
               {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "1100"
+                "width": 1100
               },
               {
                 "id": "K_ENTER",
                 "text": "*Enter*",
-                "width": "145",
-                "sp": "1"
+                "width": 195,
+                "sp": 1
               }
             ]
           }
@@ -705,7 +689,13 @@
               },
               {
                 "id": "K_QUOTE",
-                "text": "់"
+                "text": "់",
+                "sk": [
+                  {
+                    "text": "ៈ",
+                    "id": "U_17C8"
+                  }
+                ]
               },
               {
                 "id": "K_C",
@@ -713,8 +703,7 @@
               },
               {
                 "id": "K_Q",
-                "text": "ឆ",
-                "pad": ""
+                "text": "ឆ"
               },
               {
                 "id": "K_C",
@@ -811,6 +800,10 @@
                   {
                     "text": "ូ",
                     "id": "U_17BC"
+                  },
+                  {
+                    "text": "ួ",
+                    "id": "U_17BD"
                   }
                 ]
               },
@@ -840,8 +833,8 @@
               {
                 "id": "K_SHIFT",
                 "text": "*Shift*",
-                "width": "155",
-                "sp": "1",
+                "width": 155,
+                "sp": 1,
                 "nextlayer": "shift"
               },
               {
@@ -875,8 +868,8 @@
               {
                 "id": "K_BKSP",
                 "text": "*BkSp*",
-                "width": "160",
-                "sp": "1"
+                "width": 160,
+                "sp": 1
               }
             ]
           },
@@ -886,18 +879,18 @@
               {
                 "id": "K_LOPT",
                 "text": "*Menu*",
-                "width": "155",
-                "sp": "1"
+                "width": 155,
+                "sp": 1
               },
               {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "625"
+                "width": 625
               },
               {
                 "id": "K_PERIOD",
                 "text": "។",
-                "width": "150",
+                "width": 150,
                 "sk": [
                   {
                     "text": "៕",
@@ -923,8 +916,8 @@
               {
                 "id": "K_ENTER",
                 "text": "*Enter*",
-                "width": "160",
-                "sp": "1"
+                "width": 160,
+                "sp": 1
               }
             ]
           }
@@ -1020,7 +1013,7 @@
                 ]
               },
               {
-                "id": "K_A",
+                "id": "K_COLON",
                 "text": "ៈ"
               },
               {
@@ -1080,34 +1073,19 @@
                 "layer": "default",
                 "sk": [
                   {
-                    "text": "\"",
-                    "id": "U_0022"
-                  },
-                  {
-                    "text": "'",
-                    "id": "U_0027"
-                  },
-                  {
-                    "text": "<",
-                    "id": "U_003C"
+                    "text": "‹",
+                    "id": "U_2039"
                   }
                 ]
               },
               {
                 "id": "K_BKQUOTE",
                 "text": "»",
+                "layer": "shift",
                 "sk": [
                   {
-                    "text": "\"",
-                    "id": "U_0022"
-                  },
-                  {
-                    "text": "'",
-                    "id": "U_0027"
-                  },
-                  {
-                    "text": ">",
-                    "id": "U_003E"
+                    "text": "›",
+                    "id": "U_203A"
                   }
                 ]
               },
@@ -1154,17 +1132,30 @@
               {
                 "id": "K_SHIFT",
                 "text": "*Shift*",
-                "width": "155",
-                "sp": "2",
+                "width": 155,
+                "sp": 2,
                 "nextlayer": "default"
               },
               {
-                "id": "U_0023",
-                "text": "#"
+                "id": "K_QUOTE",
+                "text": "\"",
+                "layer": "shift",
+                "sk": [
+                  {
+                    "text": "'",
+                    "id": "U_0027"
+                  }
+                ]
               },
               {
                 "id": "U_0040",
-                "text": "@"
+                "text": "@",
+                "sk": [
+                  {
+                    "text": "#",
+                    "id": "U_0023"
+                  }
+                ]
               },
               {
                 "id": "U_002B",
@@ -1203,13 +1194,23 @@
               {
                 "id": "K_EQUAL",
                 "text": "=",
-                "layer": "default"
+                "layer": "default",
+                "sk": [
+                  {
+                    "text": "<",
+                    "id": "U_003C"
+                  },
+                  {
+                    "text": ">",
+                    "id": "U_003E"
+                  }
+                ]
               },
               {
                 "id": "K_BKSP",
                 "text": "*BkSp*",
-                "width": "160",
-                "sp": "1"
+                "width": 160,
+                "sp": 1
               }
             ]
           },
@@ -1219,18 +1220,18 @@
               {
                 "id": "K_LOPT",
                 "text": "*Menu*",
-                "width": "155",
-                "sp": "1"
+                "width": 155,
+                "sp": 1
               },
               {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "625"
+                "width": 625
               },
               {
                 "id": "K_PERIOD",
                 "text": "។",
-                "width": "150",
+                "width": 150,
                 "layer": "default",
                 "sk": [
                   {
@@ -1240,8 +1241,7 @@
                   },
                   {
                     "text": "៕",
-                    "id": "K_PERIOD",
-                    "layer": "shift"
+                    "id": "U_17D5"
                   },
                   {
                     "text": "!",
@@ -1258,8 +1258,8 @@
               {
                 "id": "K_ENTER",
                 "text": "*Enter*",
-                "width": "160",
-                "sp": "1"
+                "width": 160,
+                "sp": 1
               }
             ]
           }
